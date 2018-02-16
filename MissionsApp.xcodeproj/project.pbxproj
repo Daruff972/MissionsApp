@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF238E98201CA87A0053A8C1 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF238E97201CA87A0053A8C1 /* Services.swift */; };
+		AF238E9A201D30650053A8C1 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF238E99201D30650053A8C1 /* DataServices.swift */; };
+		AF23C52D2016B0AC001738B7 /* MyMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23C52C2016B0AC001738B7 /* MyMissionViewController.swift */; };
+		AF23C52F2016B137001738B7 /* MyMissionTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF23C52E2016B137001738B7 /* MyMissionTableViewCellController.swift */; };
+		AF4785742029225200EFCFD2 /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4785732029225200EFCFD2 /* CityModel.swift */; };
 		AF65B2531FFBF04500975C2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65B2521FFBF04500975C2D /* AppDelegate.swift */; };
-		AF65B2551FFBF04500975C2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65B2541FFBF04500975C2D /* ViewController.swift */; };
+		AF65B2551FFBF04500975C2D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF65B2541FFBF04500975C2D /* LoginViewController.swift */; };
 		AF65B2581FFBF04500975C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF65B2561FFBF04500975C2D /* Main.storyboard */; };
 		AF65B25A1FFBF04500975C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF65B2591FFBF04500975C2D /* Assets.xcassets */; };
 		AF65B25D1FFBF04500975C2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF65B25B1FFBF04500975C2D /* LaunchScreen.storyboard */; };
+		AF717727200CFFEE005321EE /* CompetencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF717726200CFFEE005321EE /* CompetencesViewController.swift */; };
+		AF72A35C1FFD85CF0086A291 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72A35B1FFD85CF0086A291 /* HomeViewController.swift */; };
+		AF72A35E1FFEE4350086A291 /* ProfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF72A35D1FFEE4350086A291 /* ProfilViewController.swift */; };
+		AF72A36020041E1C0086A291 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF72A35F20041E1C0086A291 /* GoogleService-Info.plist */; };
+		AFB85F262006F1D6009BAF85 /* AssociationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB85F252006F1D6009BAF85 /* AssociationsViewController.swift */; };
+		AFB85F2A20083715009BAF85 /* AssociationsTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB85F2920083715009BAF85 /* AssociationsTableViewCellController.swift */; };
+		AFB85F2C20083869009BAF85 /* AssoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB85F2B20083869009BAF85 /* AssoModel.swift */; };
+		AFB908C3200EA38F002C2784 /* MissionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB908C2200EA38F002C2784 /* MissionsViewController.swift */; };
+		AFB908C5200EA68E002C2784 /* MissionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB908C4200EA68E002C2784 /* MissionModel.swift */; };
+		AFB908C7200EA91A002C2784 /* MissionsTableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB908C6200EA91A002C2784 /* MissionsTableViewCellController.swift */; };
+		F1BB1A4B2D758BA85D7423F4 /* Pods_MissionsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2F61C01FAD386AF1070DBD /* Pods_MissionsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BCF5F4CFF74DC3E7896FFEE /* Pods-MissionsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MissionsApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MissionsApp/Pods-MissionsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		AF238E97201CA87A0053A8C1 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		AF238E99201D30650053A8C1 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		AF23C52C2016B0AC001738B7 /* MyMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMissionViewController.swift; sourceTree = "<group>"; };
+		AF23C52E2016B137001738B7 /* MyMissionTableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMissionTableViewCellController.swift; sourceTree = "<group>"; };
+		AF4785732029225200EFCFD2 /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 		AF65B24F1FFBF04500975C2D /* MissionsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MissionsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF65B2521FFBF04500975C2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF65B2541FFBF04500975C2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF65B2541FFBF04500975C2D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AF65B2571FFBF04500975C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF65B2591FFBF04500975C2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF65B25C1FFBF04500975C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF65B25E1FFBF04500975C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF717726200CFFEE005321EE /* CompetencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetencesViewController.swift; sourceTree = "<group>"; };
+		AF72A35B1FFD85CF0086A291 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AF72A35D1FFEE4350086A291 /* ProfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilViewController.swift; sourceTree = "<group>"; };
+		AF72A35F20041E1C0086A291 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AFB85F252006F1D6009BAF85 /* AssociationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociationsViewController.swift; sourceTree = "<group>"; };
+		AFB85F2920083715009BAF85 /* AssociationsTableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssociationsTableViewCellController.swift; sourceTree = "<group>"; };
+		AFB85F2B20083869009BAF85 /* AssoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssoModel.swift; sourceTree = "<group>"; };
+		AFB908C2200EA38F002C2784 /* MissionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsViewController.swift; sourceTree = "<group>"; };
+		AFB908C4200EA68E002C2784 /* MissionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionModel.swift; sourceTree = "<group>"; };
+		AFB908C6200EA91A002C2784 /* MissionsTableViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsTableViewCellController.swift; sourceTree = "<group>"; };
+		D65E88637D805501E11F88EC /* Pods-MissionsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MissionsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MissionsApp/Pods-MissionsApp.release.xcconfig"; sourceTree = "<group>"; };
+		EE2F61C01FAD386AF1070DBD /* Pods_MissionsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MissionsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,82 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1BB1A4B2D758BA85D7423F4 /* Pods_MissionsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EA910F8D27922D799EBDA11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE2F61C01FAD386AF1070DBD /* Pods_MissionsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21152455DE633FFF35A77733 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BCF5F4CFF74DC3E7896FFEE /* Pods-MissionsApp.debug.xcconfig */,
+				D65E88637D805501E11F88EC /* Pods-MissionsApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF238E93201A91450053A8C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFB908C4200EA68E002C2784 /* MissionModel.swift */,
+				AFB85F2B20083869009BAF85 /* AssoModel.swift */,
+				AF4785732029225200EFCFD2 /* CityModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF238E94201A918B0053A8C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AFB85F2920083715009BAF85 /* AssociationsTableViewCellController.swift */,
+				AFB908C6200EA91A002C2784 /* MissionsTableViewCellController.swift */,
+				AF23C52E2016B137001738B7 /* MyMissionTableViewCellController.swift */,
+				AFB85F252006F1D6009BAF85 /* AssociationsViewController.swift */,
+				AF23C52C2016B0AC001738B7 /* MyMissionViewController.swift */,
+				AFB908C2200EA38F002C2784 /* MissionsViewController.swift */,
+				AF717726200CFFEE005321EE /* CompetencesViewController.swift */,
+				AF72A35D1FFEE4350086A291 /* ProfilViewController.swift */,
+				AF65B2541FFBF04500975C2D /* LoginViewController.swift */,
+				AF72A35B1FFD85CF0086A291 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF238E95201A92B20053A8C1 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				AF65B2561FFBF04500975C2D /* Main.storyboard */,
+				AF65B25B1FFBF04500975C2D /* LaunchScreen.storyboard */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		AF238E96201CA84E0053A8C1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AF238E97201CA87A0053A8C1 /* Services.swift */,
+				AF238E99201D30650053A8C1 /* DataServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		AF65B2461FFBF04500975C2D = {
 			isa = PBXGroup;
 			children = (
 				AF65B2511FFBF04500975C2D /* MissionsApp */,
 				AF65B2501FFBF04500975C2D /* Products */,
+				21152455DE633FFF35A77733 /* Pods */,
+				1EA910F8D27922D799EBDA11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,11 +153,13 @@
 		AF65B2511FFBF04500975C2D /* MissionsApp */ = {
 			isa = PBXGroup;
 			children = (
+				AF238E96201CA84E0053A8C1 /* Services */,
+				AF238E95201A92B20053A8C1 /* Layout */,
+				AF238E94201A918B0053A8C1 /* Controller */,
+				AF238E93201A91450053A8C1 /* Model */,
 				AF65B2521FFBF04500975C2D /* AppDelegate.swift */,
-				AF65B2541FFBF04500975C2D /* ViewController.swift */,
-				AF65B2561FFBF04500975C2D /* Main.storyboard */,
 				AF65B2591FFBF04500975C2D /* Assets.xcassets */,
-				AF65B25B1FFBF04500975C2D /* LaunchScreen.storyboard */,
+				AF72A35F20041E1C0086A291 /* GoogleService-Info.plist */,
 				AF65B25E1FFBF04500975C2D /* Info.plist */,
 			);
 			path = MissionsApp;
@@ -71,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF65B2611FFBF04500975C2D /* Build configuration list for PBXNativeTarget "MissionsApp" */;
 			buildPhases = (
+				845E48C368C22A1D95214424 /* [CP] Check Pods Manifest.lock */,
 				AF65B24B1FFBF04500975C2D /* Sources */,
 				AF65B24C1FFBF04500975C2D /* Frameworks */,
 				AF65B24D1FFBF04500975C2D /* Resources */,
+				07D50CC7F37791BBC9CE1491 /* [CP] Embed Pods Frameworks */,
+				F5AE5BE76AC32EA9678E5DEF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF65B25D1FFBF04500975C2D /* LaunchScreen.storyboard in Resources */,
+				AF72A36020041E1C0086A291 /* GoogleService-Info.plist in Resources */,
 				AF65B25A1FFBF04500975C2D /* Assets.xcassets in Resources */,
 				AF65B2581FFBF04500975C2D /* Main.storyboard in Resources */,
 			);
@@ -131,13 +236,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07D50CC7F37791BBC9CE1491 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MissionsApp/Pods-MissionsApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MissionsApp/Pods-MissionsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		845E48C368C22A1D95214424 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MissionsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5AE5BE76AC32EA9678E5DEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MissionsApp/Pods-MissionsApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AF65B24B1FFBF04500975C2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF65B2551FFBF04500975C2D /* ViewController.swift in Sources */,
+				AF238E9A201D30650053A8C1 /* DataServices.swift in Sources */,
+				AF65B2551FFBF04500975C2D /* LoginViewController.swift in Sources */,
 				AF65B2531FFBF04500975C2D /* AppDelegate.swift in Sources */,
+				AF717727200CFFEE005321EE /* CompetencesViewController.swift in Sources */,
+				AF4785742029225200EFCFD2 /* CityModel.swift in Sources */,
+				AF238E98201CA87A0053A8C1 /* Services.swift in Sources */,
+				AF72A35C1FFD85CF0086A291 /* HomeViewController.swift in Sources */,
+				AFB85F2A20083715009BAF85 /* AssociationsTableViewCellController.swift in Sources */,
+				AF72A35E1FFEE4350086A291 /* ProfilViewController.swift in Sources */,
+				AF23C52F2016B137001738B7 /* MyMissionTableViewCellController.swift in Sources */,
+				AFB908C5200EA68E002C2784 /* MissionModel.swift in Sources */,
+				AFB908C3200EA38F002C2784 /* MissionsViewController.swift in Sources */,
+				AFB908C7200EA91A002C2784 /* MissionsTableViewCellController.swift in Sources */,
+				AFB85F262006F1D6009BAF85 /* AssociationsViewController.swift in Sources */,
+				AF23C52D2016B0AC001738B7 /* MyMissionViewController.swift in Sources */,
+				AFB85F2C20083869009BAF85 /* AssoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +451,11 @@
 		};
 		AF65B2621FFBF04500975C2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BCF5F4CFF74DC3E7896FFEE /* Pods-MissionsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMFE2XVS4V;
 				INFOPLIST_FILE = MissionsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RC.MissionsApp;
@@ -286,9 +467,11 @@
 		};
 		AF65B2631FFBF04500975C2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D65E88637D805501E11F88EC /* Pods-MissionsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YMFE2XVS4V;
 				INFOPLIST_FILE = MissionsApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RC.MissionsApp;
